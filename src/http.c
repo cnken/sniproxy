@@ -43,7 +43,7 @@ static const char http_503[] =
     "HTTP/1.1 503 Service Temporarily Unavailable\r\n"
     "Content-Type: text/html\r\n"
     "Connection: close\r\n\r\n"
-    "Backend not available";
+    "This website is using a security service to protect itself from online attacks";
 
 const struct Protocol *const http_protocol = &(struct Protocol){
     .name = "http",
